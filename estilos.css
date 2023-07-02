@@ -1,0 +1,128 @@
+/* Estilos para dispositivos com largura menor ou igual a 600 pixels (celulares) */
+@media only screen and (max-width: 600px) {
+    .tiragem {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+  
+  /* Estilos para dispositivos com largura entre 601 pixels e 1024 pixels (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .tiragem {
+      width: 50%;
+      margin: 10px;
+    }
+  }
+  
+  /* Estilos para dispositivos com largura entre 1025 pixels e 1440 pixels (computadores) */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .tiragem {
+      width: 33.33%;
+      margin: 10px;
+    }
+  }
+  
+  /* Estilos para dispositivos com largura maior que 1440 pixels (telas de TV) */
+  @media only screen and (min-width: 1441px) {
+    .tiragem {
+      width: 25%;
+      margin: 10px;
+    }
+  }
+
+  .conteudo-explicacao {
+    display: none;
+  }
+  
+  .tiragem:hover .conteudo-explicacao {
+    display: block;
+  }
+
+/*tamanhos das imagens das tiragens*/
+
+.tiragem img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+
+   /* Estilo para a faixa no topo */
+   .header {
+    background-color: #F3ACCB;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+  }
+
+  /* Estilo para os quadrados de tiragem */
+  .tiragem {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  /* Estilo para o nome da tiragem */
+  .tiragem h3 {
+    margin-top: 20px;
+    color: #000;
+  }
+
+  /* Estilo para o valor da tiragem */
+  .tiragem p {
+    color: #000;
+    font-weight: bold;
+  }
+
+  /* Estilo para o link de explicação da tiragem */
+  .tiragem a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* Estilo para o ícone do WhatsApp */
+  .whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+}
+  
+/* Estilo para os valores das tiragens */
+.tiragem p {
+  font-size: 24px; /* Altere o tamanho da fonte conforme necessário */
+  font-weight: bold;
+  color: #F3838B; /* Altere a cor conforme desejado */
+  margin-bottom: 10px; /* Adicione margem inferior conforme desejado */
+}
+
+/* Estilo para o link de explicação da tiragem */
+.tiragem a {
+  color: purple; /* Define a cor do texto como azul */
+  text-decoration: underline; /* Adiciona uma linha de sublinhado */
+}
+
+
+    /* Estilo para o rodapé */
+    footer {
+      background-color: #F3ACCB;
+      color: #FFF;
+      padding: 30px; /* Aumentar a altura do rodapé */
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px; /* Adicione a margem superior desejada */
+    }
+
+    /* Estilo para os links do rodapé */
+    footer a {
+      color: #FFF;
+      text-decoration: underline; /* Aumentar o tamanho da letra do rodapé */
+      font-size: 20px;
+      margin: 30px; /* Espaçamento entre os elementos */
+    }
+
